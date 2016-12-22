@@ -1,0 +1,6 @@
+" Programming
+    Bundle 'davidhalter/jedi-vim'
+    Bundle 'stephpy/vim-yaml'
+    Bundle 'Shougo/deoplete.nvim'
+    Bundle 'zchee/deoplete-jedi'
+    Bundle 'tpope/vim-markdown'
