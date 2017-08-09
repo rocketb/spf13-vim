@@ -1,11 +1,14 @@
 
+set clipboard+=unnamedplus
+set spell spelllang=ru_ru,en_us
 
 " Turn on powerline style fonts
 let g:airline_powerline_fonts = 1
 
 " Jedi-vim {
     " use jedi-vim only for GoTo
-    let g:jedi#completeons_enabled = 0
+    let g:jedi#popup_on_dot = 0
+    let g:jedi#completions_enabled = 0
 " }
 
 " neocomplete {
@@ -40,3 +43,5 @@ let g:airline_powerline_fonts = 1
     let g:syntastic_vim_checkers = ['vimlint']
     let g:syntastic_stl_format = '[%E{E: %fe #%e}%B{, }%W{W: %fw #%w}]'
 " }
+
+let g:table_mode_header_fillchar = '='

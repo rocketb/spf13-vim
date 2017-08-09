@@ -4,3 +4,6 @@
     Bundle 'Shougo/deoplete.nvim'
     Bundle 'zchee/deoplete-jedi'
     Bundle 'tpope/vim-markdown'
+
+" Text editing
+    Bundle 'dhruvasagar/vim-table-mode'
